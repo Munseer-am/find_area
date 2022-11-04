@@ -9,10 +9,10 @@ int main() {
     if ((a+b > c) && (a+c > b) && (c+b > a)) {
         s = (a + b + c) / 2;
         area = sqrt(s*(s-a)*(s-b)*(s-c));
-        cout << area;
+        cout << "Area is: " << area << endl;
     }
     else {
-        cout << "Cannot form triangle";
+        cout << "Cannot form triangle" << endl;
     }
     return 0;
 }
