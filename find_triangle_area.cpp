@@ -3,8 +3,7 @@
 using namespace std;
 
 int main() {
-    int a, b, c;
-    float s, area;
+    float a, b, c, s, area;
     cout << "Enter sides of triangle: ";
     cin >> a >> b >> c;
     if ((a+b > c) && (a+c > b) && (c+b > a)) {
